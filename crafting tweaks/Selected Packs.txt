@@ -1,0 +1,7 @@
+Vanilla Tweaks Crafting Tweaks
+Version: 1.14
+Packs:
+	double slab crafting v1.0.4
+	more bricks crafting v1.0.0
+	more stairs crafting v1.2.1
+	universal dyeing v1.2.0

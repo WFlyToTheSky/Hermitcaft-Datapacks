@@ -1,0 +1,7 @@
+
+function ch:get_rotation
+
+execute if entity @s[tag=ch_north] run title @s actionbar ["",{"text":"XYZ: ","color":"gold"},{"color":"white","score":{"name":"@s","objective":"ch_x"}},{"text":" ","color":"white"},{"color":"white","score":{"name":"@s","objective":"ch_y"}},{"text":" ","color":"white"},{"color":"white","score":{"name":"@s","objective":"ch_z"}},{"text":"  N      ","color":"gold"}]
+execute if entity @s[tag=ch_south] run title @s actionbar ["",{"text":"XYZ: ","color":"gold"},{"color":"white","score":{"name":"@s","objective":"ch_x"}},{"text":" ","color":"white"},{"color":"white","score":{"name":"@s","objective":"ch_y"}},{"text":" ","color":"white"},{"color":"white","score":{"name":"@s","objective":"ch_z"}},{"text":"  S      ","color":"gold"}]
+execute if entity @s[tag=ch_west] run title @s actionbar ["",{"text":"XYZ: ","color":"gold"},{"color":"white","score":{"name":"@s","objective":"ch_x"}},{"text":" ","color":"white"},{"color":"white","score":{"name":"@s","objective":"ch_y"}},{"text":" ","color":"white"},{"color":"white","score":{"name":"@s","objective":"ch_z"}},{"text":"  W      ","color":"gold"}]
+execute if entity @s[tag=ch_east] run title @s actionbar ["",{"text":"XYZ: ","color":"gold"},{"color":"white","score":{"name":"@s","objective":"ch_x"}},{"text":" ","color":"white"},{"color":"white","score":{"name":"@s","objective":"ch_y"}},{"text":" ","color":"white"},{"color":"white","score":{"name":"@s","objective":"ch_z"}},{"text":"  E      ","color":"gold"}]
